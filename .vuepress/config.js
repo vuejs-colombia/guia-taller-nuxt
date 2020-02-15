@@ -6,6 +6,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Empieza aquí', link: '/empieza-aqui/' },
+      { text: 'Primer desafío', link: '/primer-desafio/' },
       { text: 'GitHub', link: 'https://github.com/vuejs-colombia/guia-taller-nuxt' },
     ],
     sidebar: 'auto'
