@@ -1,0 +1,20 @@
+{
+  "name": "guia-taller-nuxt",
+  "version": "1.0.0",
+  "description": "Guía para el taller de Nuxt",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs-colombia/guia-taller-nuxt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuejs-colombia/guia-taller-nuxt/issues"
+  },
+  "homepage": "https://github.com/vuejs-colombia/guia-taller-nuxt#readme"
+}
