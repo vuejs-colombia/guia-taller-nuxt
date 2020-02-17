@@ -6,9 +6,33 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Empieza aquí', link: '/empieza-aqui/' },
-      { text: 'Primer desafío', link: '/primer-desafio/' },
-      { text: 'GitHub', link: 'https://github.com/vuejs-colombia/guia-taller-nuxt' },
+      { text: 'Desafíos', link: '/desafios/primer-desafio/' },
+      {
+        text: 'GitHub',
+        link: 'https://github.com/vuejs-colombia/guia-taller-nuxt'
+      }
     ],
-    sidebar: 'auto'
+    sidebar: {
+      '/empieza-aqui/': ['/empieza-aqui/'],
+      '/desafios/': [
+        {
+          title: 'Primer desafío',
+          collapsable: false,
+          children: [
+            '/desafios/primer-desafio/',
+            '/desafios/primer-desafio/layout/',
+            '/desafios/primer-desafio/componentes/',
+            '/desafios/primer-desafio/routing/',
+            '/desafios/primer-desafio/routing-dinamico/',
+            '/desafios/primer-desafio/routing-anidado/'
+          ]
+        },
+        {
+          title: 'Segundo desafío',
+          collapsable: false,
+          children: ['/desafios/segundo-desafio/']
+        }
+      ]
+    }
   }
-}
+};

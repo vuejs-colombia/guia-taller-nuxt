@@ -28,4 +28,4 @@ cd <nombre-de-proyecto>
 npm run dev
 ```
 
-Alguna especie de call-to-action..."Ya está todo listo, empieza con el [primer desafío](/primer-desafio/)"
+Alguna especie de call-to-action..."Ya está todo listo, empieza con el [primer desafío](/desafios/primer-desafio/)"
